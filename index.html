@@ -1,150 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Нац парк бурабай</title>
+    
+    <!-- Title -->
+    <title>Nature National Park</title>
 
-    <!-- Linking external CSS file -->
+    <!-- Link to External CSS -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS (as a comment) -->
+    <!--<style>
+        /* Your internal CSS code can go here */
+    </style>-->
 </head>
 <body>
 
-    <!-- Хеадер тут -->
+    <!-- Header Section -->
     <header>
-        <h1>Бурабай</h1>
+        <h1>Welcome to Nature National Park</h1>
     </header>
 
-    <!-- Навигация -->
+    <!-- Navigation Section -->
     <nav>
         <ul>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#activities">Activities</a></li>
-            <li><a href="#wildlife">Wildlife</a></li>
-            <li><a href="#maps">Maps</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- контент сюда -->
+    <!-- Main Content Section -->
     <main>
         <section id="about">
-            <h2>О Бурабай</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>
-            <!-- Add more content as needed -->
+            <h2>About Nature National Park</h2>
+            <p>Explore the beauty of Nature National Park, where lush greenery and diverse wildlife come together to create an unforgettable experience.</p>
+            <img src="nature.jpg" alt="Nature National Park">
+            <br>
+
+            <!-- Video with Controls and Alt Text -->
+            <video width="400" height="300" controls>
+                <source src="nature_video.mp4" type="video/mp4" alt="ВИдео природа">
+                Your browser does not support the video tag.
+            </video>
         </section>
 
-        <section id="mythsandlegends">
-            <h2>Мифы и легенды</h2>
-            <p>Давным давно в далекой далекой галактике...</p>
-            <!-- добавилшь что надо будет -->
+        <section id="activities">
+            <h2>Activities</h2>
+            <ul>
+                <li>Hiking Trails</li>
+                <li>Wildlife Safaris</li>
+                <li>Photography Tours</li>
+                <li>Stargazing Nights</li>
+            </ul>
         </section>
-
-        <section id="wildlife">
-            <h2>Фото</h2>
-            <p></p>
-        
-            <table class="image-table">
-                <tr>
-                    <td>
-                        <div class="image-container">
-                            <img src="pic1.jpg" alt="Jumbaktas">
-                            <div class="overlay"></div>
-                        </div>
-                    </td>
-                    <td>
-                        <br>
-                        <h2>Видео</h2>
-                    <video width="400" height="300" controls>
-                            <source src="nature_video.mp4" type="video/mp4" alt="ВИдео природа">
-                            Your browser does not support the video tag.
-                    </video>
-                    </td>
-                </tr>
-            </table>
-        </section>
-        
-
-        <section id="maps">
-            <h2>Карта Бурабай</h2>
-            <p>сюда можно добавить карты гугловые или яндекс</p>
-        </section>
-
-        <section id="contact">
-            <h2>Наши контакты</h2>
-            <p>8-800-555-35-35.</p>
-        </section>
-
-
     </main>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2023 Национальный парк Бурабай  All rights reserved.</p>
+        <p>&copy; 2023 Nature National Park. All rights reserved.</p>
     </footer>
 
 </body>
 </html>
-
-
-<!--  
-     Внутренний коммент css
-    <style>
-        /* Reset some default styles to ensure consistency */
-        body, h1, h2, p, ul, ol, li, table, th, td {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Apply styles to body */
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
-            margin: 0;
-        }
-
-        /* Apply styles to header */
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-        }
-
-        /* Apply styles to navigation */
-        nav {
-            background-color: #333;
-            color: white;
-            padding: 0.5em;
-        }
-
-        nav ul {
-            list-style-type: none;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: white;
-            padding: 0.5em 1em;
-        }
-
-        /* Apply styles to main content */
-        main {
-            padding: 2em;
-        }
-
-        section {
-            margin-bottom: 2em;
-        }
-
-        /* Apply styles to footer */
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-        }
-    </style>
-Конец коммента -->
