@@ -93,7 +93,3 @@ footer {
     display: block;
     z-index: 2;
 }
-
-.video-container video:not(:paused) + ::before {
-    opacity: 0;
-}
