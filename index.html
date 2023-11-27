@@ -1,82 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Title -->
-    <title>Burabai National Park</title>
-
-    <!-- Link to External CSS -->
+    <title>Burabay National Park</title>
     <link rel="stylesheet" href="styles.css">
-
-    <!-- Internal CSS (as a comment) -->
-    <!--<style>
-        /* Your internal CSS code can go here */
-    </style>-->
 </head>
 <body>
 
-    <!-- Header Section -->
     <header>
-        <h1>Welcome to Burabai National Park</h1>
+        <h1>Welcome to Burabay National Park</h1>
     </header>
 
-    <!-- Navigation Section -->
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Burabai</a></li>
-            <li><a href="#activities">Activities</a></li>
+            <li><a href="#about">About Burabay</a></li>
+            <li><a href="#legends">Legends</a></li>
+            <li><a href="#location">Location</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Main Content Section -->
     <main>
         <section id="about">
-            <h2>About Burabai National Park</h2>
-            <p>ТЕкст сюда</p>
-            <img src="nature.jpg" width="350" height="250"  alt="Burabai National Park">
-            <br>
+            <h2>About Burabay National Park</h2>
+            <p>Discover the natural beauty and wonders of Burabay National Park. Immerse yourself in the breathtaking landscapes and rich history of this remarkable destination.</p>
+            <div class="image-container">
+                <img src="nature.jpg" width="500" height="350" alt="Burabay National Park 1">
+                <img src="nature2.jpg" width="500" height="350" alt="Burabay National Park 2">
+            </div>
 
             <!-- Video with Controls and Alt Text -->
-            <video width="350" height="250" controls>
-                <source src="nature_video.mp4" type="video/mp4" alt="ВИдео природа">
-                Your browser does not support the video tag.
-            </video>
-            <h2>Visit Us in Burabai</h2>
-            <iframe
-                width="100%"
-                height="300"
-                frameborder="0"
-                style="border:0"
-                src="https://maps.googleapis.com/maps/api/js?key=INSERT_YOUR_API_KEY&callback=initMap&v=weekly"
-                allowfullscreen
-            ></iframe>
-
+            <div class="video-container">
+                <video width="100%" height="auto" controls>
+                    <source src="nature_video.mp4" type="video/mp4" alt="Video of nature">
+                </video>
+            </div>
         </section>
 
-        <section id="activities">
-            <h2>Activities</h2>
+        <section id="legends">
+            <h2>Legends</h2>
             <ul>
-                <li>текст1</li>
-                <li>текст2</li>
-                <li>текст3</li>
-                <li>текст4</li>
+                <li>Explore the ancient tales and legends that surround Burabay.</li>
             </ul>
         </section>
 
+        <section id="location">
+            <h2>Visit Burabay</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19174.00243816678!2d70.2895402408678!3d53.078758651745446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424dabcf39427743%3A0x900e6e111fe83ede!2sBurabay%20020000!5e0!3m2!1sen!2skz!4v1701094473940!5m2!1sen!2skz" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
         <section id="contact">
-            <h2>Contacts</h2>
+            <h2>Contact Us</h2>
+            <p>For inquiries and information, feel free to contact us:</p>
+            <p>Email: info@burabaynationalpark.com</p>
+            <p>Phone: +123 456 7890</p>
         </section>
     </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2023 Burabai National Park. All rights reserved.</p>
+    <footer class="footer">
+        <p>&copy; 2023 Burabay National Park. All rights reserved.</p>
     </footer>
-
+    
 </body>
 </html>
