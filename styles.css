@@ -58,22 +58,21 @@ footer {
     overflow: hidden;
 }
 
-/* Style for Video */
+.video-container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .video-container video {
     width: 100%;
     height: auto;
     display: block;
-}
-
-@media screen and (max-width: 600px) {
-    /* Adjust styles for screens 600px and smaller */
-    main {
-        padding: 1em;
-    }
-
-    .video-container {
-        max-width: 100%;
-    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
